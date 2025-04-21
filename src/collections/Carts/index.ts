@@ -141,6 +141,7 @@ export const Carts: CollectionConfig = {
                       name: 'quantity',
                       type: 'number',
                       required: true,
+                      min: 1,
                       defaultValue: 1,
                     },
                     {
@@ -162,6 +163,7 @@ export const Carts: CollectionConfig = {
               name: 'discount',
               type: 'number',
               required: true,
+              min: 0,
               defaultValue: 0,
             },
             {

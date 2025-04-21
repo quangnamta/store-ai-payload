@@ -34,6 +34,7 @@ export const ProductOptions: CollectionConfig = {
             {
               name: 'price',
               type: 'number',
+              min: 0,
               required: true,
             },
           ],
